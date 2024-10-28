@@ -5,7 +5,7 @@ const userAge = prompt("Quanti anni hai?")
 console.log(toTravelKm, userAge);
 
 const distancePrice = priceKm * toTravelKm;
-console.log(distancePrice.toFixed(2));
+console.log(distancePrice.toFixed(2) + "€");
 
 let price;
 
@@ -17,4 +17,4 @@ if (userAge < 18) {
     price = distancePrice - (distancePrice * 40 / 100);
 }
 
-console.log(price.toFixed(2))
+console.log(price.toFixed(2) + "€");
